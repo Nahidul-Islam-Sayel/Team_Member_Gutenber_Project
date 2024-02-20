@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACC;EACA;AACD,C","sources":["webpack://techearty-teams/./src/style.scss"],"sourcesContent":[".wp-block-create-block-techearty-teams {\n\tdisplay: flax;\n\tflex-wrap: wrap;\n}\n"],"names":[],"sourceRoot":""}
