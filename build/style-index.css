@@ -178,6 +178,9 @@
 .wp-block-create-block-techearty-teams .wp-block-create-block-techearty-team {
   margin: 10px;
 }
+.wp-block-create-block-techearty-teams .wp-block-create-block-techearty-team img {
+  margin-bottom: 20px;
+}
 .wp-block-create-block-techearty-teams .wp-block-create-block-techearty-team h4 {
   color: #222;
   font-size: 35px;

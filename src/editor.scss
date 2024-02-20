@@ -45,9 +45,17 @@
 		}
 		>[data-type="create-block/techearty-team"]{
 			margin: 10px;
+			.block-editor-media-placeholder{
+				margin-bottom: 20px;
+			}
 			.wp-block-blocks-course-team-member-img{
 				position: relative;
-				.components-spinner{
+				margin-bottom: 20px;
+				&.is-loading img {
+					opacity: 0.3;
+				}
+
+				.components-spinner {
 					position: absolute;
 					left: 0;
 					right: 0;
