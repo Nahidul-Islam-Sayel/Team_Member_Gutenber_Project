@@ -1,9 +1,76 @@
-/**
- * The following styles get applied inside the editor only.
- *
- * Replace them with your own styles or remove the file completely.
- */
+.wp-block-create-block-techearty-teams{
+	display: block;
 
-.wp-block-create-block-techearty-teams {
-	border: 1px dotted #f00;
+	@for $i from 1 through 6 {
+		&.has-#{$i}-columns {
+			> .block-editor-inner-blocks > .block-editor-block-list__layout > {
+				[data-type="create-block/techearty-team"] {
+					width: calc(100% / #{$i} - 20px);
+				}
+				 .block-list-appender {
+                    align-self: stretch;
+                    width: calc((100% / #{$i}) - 40px); // Adjusted width calculation
+                    border: 1px dashed;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 70px;
+                    margin-top: 20px; // Add margin-top to create gap
+
+                    // Additional styles for button
+                    button {
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                        background: none;
+						color: black;
+                        padding: 0;
+                        margin: 0;
+                        cursor: pointer;
+                    }
+                }
+			}
+		}
+	}
+	> .block-editor-inner-blocks > 
+	.block-editor-block-list__layout {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -10px;
+		margin-right: -10px;
+
+		[data-type="create-block/techearty-team"]{
+			max-width: none;
+			margin: 0;
+		}
+		>[data-type="create-block/techearty-team"]{
+			margin: 10px;
+			.wp-block-blocks-course-team-member-img{
+				position: relative;
+				.components-spinner{
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					margin: auto;
+				}
+			}
+			h4 {
+				color: #222;
+				font-size: 22px;
+				font-weight: bold;
+				margin: 0;
+			}
+
+			p {
+				color: #565656;
+				font-size: 16px;
+				font-weight: 300;
+				margin-bottom: 5px;
+				margin-top: 5px;
+			}
+		}
+	}
+
 }

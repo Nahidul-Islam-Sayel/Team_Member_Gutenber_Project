@@ -23,6 +23,22 @@ registerBlockType( 'create-block/techearty-team', {
 			source: 'html',
 			selector: 'p',
 		},
+		id: {
+			type: "number"
+		},
+		alt:{
+			type: "string",
+			source: "attribute",
+			selector: "img",
+			attribute: "alt",
+			default: ''
+		},
+		url:{
+			type: "string",
+			source: "attribute",
+			selector: "img",
+			attribute: "src"
+		}
 	},
 	edit: Edit,
 	save: Save,

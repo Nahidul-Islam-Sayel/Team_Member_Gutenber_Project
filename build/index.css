@@ -1,13 +1,183 @@
 /*!****************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
   \****************************************************************************************************************************************************************************************************************************************/
-/**
- * The following styles get applied inside the editor only.
- *
- * Replace them with your own styles or remove the file completely.
- */
 .wp-block-create-block-techearty-teams {
-  border: 1px dotted #f00;
+  display: block;
+}
+.wp-block-create-block-techearty-teams.has-1-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] {
+  width: calc(100% / 1 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-1-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 1 - 40px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin-top: 20px;
+}
+.wp-block-create-block-techearty-teams.has-1-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.wp-block-create-block-techearty-teams.has-2-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] {
+  width: calc(100% / 2 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-2-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 2 - 40px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin-top: 20px;
+}
+.wp-block-create-block-techearty-teams.has-2-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.wp-block-create-block-techearty-teams.has-3-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] {
+  width: calc(100% / 3 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-3-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 3 - 40px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin-top: 20px;
+}
+.wp-block-create-block-techearty-teams.has-3-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.wp-block-create-block-techearty-teams.has-4-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] {
+  width: calc(100% / 4 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-4-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 4 - 40px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin-top: 20px;
+}
+.wp-block-create-block-techearty-teams.has-4-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.wp-block-create-block-techearty-teams.has-5-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] {
+  width: calc(100% / 5 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-5-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 5 - 40px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin-top: 20px;
+}
+.wp-block-create-block-techearty-teams.has-5-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.wp-block-create-block-techearty-teams.has-6-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] {
+  width: calc(100% / 6 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-6-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 6 - 40px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin-top: 20px;
+}
+.wp-block-create-block-techearty-teams.has-6-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.wp-block-create-block-techearty-teams > .block-editor-inner-blocks > .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.wp-block-create-block-techearty-teams > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="create-block/techearty-team"] {
+  max-width: none;
+  margin: 0;
+}
+.wp-block-create-block-techearty-teams > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] {
+  margin: 10px;
+}
+.wp-block-create-block-techearty-teams > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] .wp-block-blocks-course-team-member-img {
+  position: relative;
+}
+.wp-block-create-block-techearty-teams > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] .wp-block-blocks-course-team-member-img .components-spinner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.wp-block-create-block-techearty-teams > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] h4 {
+  color: #222;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+.wp-block-create-block-techearty-teams > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="create-block/techearty-team"] p {
+  color: #565656;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=index.css.map*/

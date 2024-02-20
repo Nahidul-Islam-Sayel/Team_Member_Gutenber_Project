@@ -2,8 +2,194 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
 .wp-block-create-block-techearty-teams {
-  display: flax;
+  display: flex;
   flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.wp-block-create-block-techearty-teams.has-1-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 1 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-2-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 2 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-3-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 3 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-4-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 4 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-5-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 5 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-6-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 6 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-7-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 7 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-8-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 8 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-9-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 9 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-10-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 10 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-11-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 11 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-12-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 12 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-13-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 13 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-14-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 14 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-15-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 15 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-16-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 16 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-17-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 17 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-18-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 18 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-19-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 19 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-20-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 20 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-21-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 21 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-22-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 22 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-23-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 23 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-24-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 24 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-25-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 25 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-26-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 26 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-27-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 27 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-28-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 28 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-29-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 29 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-30-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 30 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-31-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 31 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-32-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 32 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-33-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 33 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-34-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 34 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-35-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 35 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-36-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 36 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-37-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 37 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-38-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 38 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-39-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 39 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-40-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 40 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-41-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 41 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-42-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 42 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-43-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 43 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-44-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 44 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-45-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 45 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-46-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 46 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-47-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 47 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-48-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 48 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-49-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 49 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-50-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 50 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-51-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 51 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-52-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 52 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-53-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 53 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-54-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 54 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-55-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 55 - 20px);
+}
+.wp-block-create-block-techearty-teams.has-56-columns .wp-block-create-block-techearty-team {
+  width: calc(100% / 56 - 20px);
+}
+.wp-block-create-block-techearty-teams .wp-block-create-block-techearty-team {
+  margin: 10px;
+}
+.wp-block-create-block-techearty-teams .wp-block-create-block-techearty-team h4 {
+  color: #222;
+  font-size: 35px;
+  font-size: bold;
+  margin: 0;
+}
+.wp-block-create-block-techearty-teams .wp-block-create-block-techearty-team p {
+  color: #565656;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=style-index.css.map*/
