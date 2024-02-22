@@ -3,17 +3,21 @@ import {
     RichText,
     MediaPlaceholder,
 } from "@wordpress/block-editor";
+import { useState, useEffect } from "@wordpress/element";
 import { __ } from "@wordpress/i18n";
-import { isBlobURL } from "@wordpress/blob";
+import { isBlobURL, revokeBlobURL } from "@wordpress/blob";
 import { Spinner, withNotices } from "@wordpress/components";
 import '../editor.scss';
 
-function Edit({ attributes, setAttributes,noticeOperations,noticeUI  }) {
-    const { name, bio, url, alt } = attributes;
-    const onUploadError = (message)=>{
-		noticeOperations.removeAllNotices();
-		noticeOperations.createErrorNotice(message);
-	}
+function Edit({ attributes, setAttributes, noticeOperations, noticeUI }) {
+    const { name, bio, url, alt, id } = attributes;
+    const onUploadError = (message) => {
+        noticeOperations.removeAllNotices();
+        noticeOperations.createErrorNotice(message);
+    };
+
+    const [blobURL, setBlobURL] = useState();
+
     const onChangeName = (newName) => {
         setAttributes({ name: newName });
     };
@@ -38,14 +42,30 @@ function Edit({ attributes, setAttributes,noticeOperations,noticeUI  }) {
         });
     };
 
+    useEffect(() => {
+        if (!id && isBlobURL(url)) {
+            setAttributes({
+                url: undefined,
+                alt: '',
+            });
+        }
+    }, [id, url, setAttributes]);
+
+    useEffect(() => {
+        if (isBlobURL(url)) {
+            setBlobURL(url);
+        } else {
+            revokeBlobURL(blobURL);
+            setBlobURL();
+        }
+    }, [url, blobURL]);
+
     return (
         <div {...useBlockProps()}>
             {url && (
-                <div className={`wp-block-blocks-course-team-member-img${isBlobURL(url) ? ' is-loading ' : ''}`}>
+                <div className={`wp-block-blocks-course-team-member-img${isBlobURL(url) ? ' is-loading' : ''}`}>
                     <img src={url} alt={alt} />
-                    {
-                        isBlobURL(url) && <Spinner />
-                    }
+                    {isBlobURL(url) && <Spinner />}
                 </div>
             )}
             <MediaPlaceholder
@@ -53,10 +73,9 @@ function Edit({ attributes, setAttributes,noticeOperations,noticeUI  }) {
                 onSelect={onSelecImage}
                 onSelectURL={onSelectURL}
                 onError={onUploadError}
-                // accept="image/*"
                 allowedTypes={["image"]}
                 disableMediaButtons={url}
-				notices={noticeUI}
+                notices={noticeUI}
             />
             <RichText
                 placeholder={__("Member Name", "team-member")}
